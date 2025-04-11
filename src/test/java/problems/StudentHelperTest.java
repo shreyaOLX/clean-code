@@ -1,6 +1,6 @@
 package problems;
 
-import org.example.basic.StudentHelper;
+import org.example.basic.GradeFormat;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StudentHelperTest {
 
-	StudentHelper helper = new StudentHelper();
+	GradeFormat helper = new GradeFormat();
 	
 	@Test
 	public void testIsGradeB() {
